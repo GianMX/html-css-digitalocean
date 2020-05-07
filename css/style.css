@@ -2,14 +2,26 @@
 * {
  font-family: 'Roboto', sans-serif;
 }
+/* color  */
 .blue {
   color: #006aff;
 }
 .black {
   color: black;
 }
+.darkgrey {
+  color: #5c6a88;
+}
+.darkblue {
+  color: #0F2656;
+}
+/* end color  */
 ul {
   list-style: none;
+}
+
+.power {
+  font-weight: bold;
 }
 /* HEADER-NAVBAR*/
 #my_navbar {
@@ -67,7 +79,6 @@ ul {
 }
 .simplest h1 {
  font-size: 60px;
- font-weight: bold;
 }
 .simplest p {
  font-size: 20px;
@@ -84,14 +95,12 @@ ul {
   width: 100%;
   background-color: #579aff;
   color: white;
-  font-weight: bold;
   margin-top: 10px;
 }
 .btn_google {
   width: 100%;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-weight: bold;
 }
 .my_google img {
   height: 15px;
@@ -133,12 +142,9 @@ ul.user_logo li img {
 }
 .deploy_heading h2 {
   font-size:35px;
-  font-weight: bold;
-  color: black;
 }
 .deploy_heading p {
   font-size: 23px;
-  font-weight: bold;
   color: #6b7893;
 }
 .my_firstline {
@@ -191,13 +197,10 @@ ul.user_logo li img {
   font-size: 40px;
 }
 .title_text h2 {
-  font-weight: bold;
-  color: #031c4e;
   padding-bottom: 20px;
 }
 .title_text p {
   font-size: 22px;
-  font-weight: bold;
   color: #586686;
   padding-bottom: 40px;
 }
@@ -205,7 +208,6 @@ ul.user_logo li img {
   padding-bottom: 20px;
 }
 .my_createtxt {
-  font-weight: bold;
   color: #586686;
 }
 .circle {
@@ -217,18 +219,8 @@ ul.user_logo li img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.my_feat_title {
-  font-weight: bold;
-}
 .feat_txt {
   margin: 10px;
-  font-weight: bold;
-}
-.feat_title {
-  color: #0F2656;
-}
-.feat_txt h4 {
-  color: #0F2656;
 }
 .feat_txt p {
   color: #707c97;
@@ -242,7 +234,7 @@ ul.user_logo li img {
 /* END FEATURES DIGITAL OCEAN */
 /* SERVICE */
 #service {
-  background: linear-gradient( to right top, #00209B, #0069FF);
+  background: linear-gradient(to right top, #00209B, #0069FF);
   width: 100%;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -259,14 +251,45 @@ ul.user_logo li img {
 .table_left,
 .table_right {
   width: 100%;
-  font-weight: bold;
   padding: 20px;
   margin: 10px 0;
   line-height: 40px;
 }
 .srv_title {
   font-size: 35px;
-  font-weight: bold;
   color: white;
 }
 /* END SERVICE */
+/* DEVELOPMENT */
+#development {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F3F5F9;
+}
+.rockerbox {
+  background-color: white;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+
+.rockerbox img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.rockerbox p {
+  font-size: 27px;
+}
+/* END DEVELOPMENT */
+/* START NOW */
+#get {
+  background: linear-gradient(to right top, #00209B, #0069FF);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.get_button {
+  background-color: white;
+  margin-top: 10px;
+}
+/* END START NOW */
