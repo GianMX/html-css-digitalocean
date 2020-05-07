@@ -100,3 +100,25 @@
   margin-top: 10px;
 }
 /* END Jumbo */
+/* CUSTOMERS */
+#customers {
+  padding-top: 40px;
+  background-color: #F3F5F9;
+}
+.innovative {
+  text-transform: uppercase;
+  color: #6f7b97;
+  font-size: 20px;
+}
+.my_user_exp {
+  padding-bottom: 20px;
+}
+ul.user_logo li {
+  list-style: none;
+  display: inline-block;
+  width: calc((100% / 6) - 10px)
+}
+ul.user_logo li img {
+  width: 100%;
+}
+/* END CUSTOMERS */
