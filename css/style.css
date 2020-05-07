@@ -8,6 +8,9 @@
 .black {
   color: black;
 }
+ul {
+  list-style: none;
+}
 /* HEADER-NAVBAR*/
 #my_navbar {
   position: fixed;
@@ -114,7 +117,6 @@
   padding-bottom: 20px;
 }
 ul.user_logo li {
-  list-style: none;
   display: inline-block;
   width: calc((100% / 6) - 10px)
 }
@@ -122,3 +124,48 @@ ul.user_logo li img {
   width: 100%;
 }
 /* END CUSTOMERS */
+/* DEPLOY */
+#deploy {
+  padding-top: 60px;
+}
+.deploy_heading h2 {
+  font-size:35px;
+  font-weight: bold;
+  color: black;
+}
+.deploy_heading p {
+  font-size: 23px;
+  font-weight: bold;
+  color: #6b7893;
+}
+.my_firstline {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.my_firstline ul {
+  border-left: 1px solid grey;
+}
+.my_firstline ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 10px;
+  color: #6b7893;
+}
+.my_firstline h4 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+.my_firstline p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #6b7893;
+}
+.my_secondline {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* END DEPLOY */
