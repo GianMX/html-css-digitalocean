@@ -116,6 +116,9 @@ ul {
 .my_user_exp {
   padding-bottom: 20px;
 }
+.user_logo {
+  padding: 0;
+}
 ul.user_logo li {
   display: inline-block;
   width: calc((100% / 6) - 10px)
@@ -169,3 +172,71 @@ ul.user_logo li img {
   padding-bottom: 20px;
 }
 /* END DEPLOY */
+/* CREATE DROPLET */
+#createdrop {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F3F5F9;
+  width: 100%;
+}
+ .arrowl .icon {
+  margin-top: 210px;
+  color: #6f7b97;
+}
+ .arrowr .icon {
+  margin-top: 210px;
+  color: #031c4e;
+}
+.icon {
+  font-size: 40px;
+}
+.title_text h2 {
+  font-weight: bold;
+  color: #031c4e;
+  padding-bottom: 20px;
+}
+.title_text p {
+  font-size: 22px;
+  font-weight: bold;
+  color: #586686;
+  padding-bottom: 40px;
+}
+.droplet_img {
+  padding-bottom: 20px;
+}
+.my_createtxt {
+  font-weight: bold;
+  color: #586686;
+}
+.circle {
+  color: #006aff;
+}
+/* END CREATE DROPLET */
+/* FEATURES DIGITAL OCEAN */
+#features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.my_feat_title {
+  font-weight: bold;
+}
+.feat_txt {
+  margin: 10px;
+  font-weight: bold;
+}
+.feat_title {
+  color: #0F2656;
+}
+.feat_txt h4 {
+  color: #0F2656;
+}
+.feat_txt p {
+  color: #707c97;
+}
+.feat_txt a {
+  color: #006aff;
+}
+.feat_txt img {
+  margin-top: 20px;
+}
+/* END FEATURES DIGITAL OCEAN */
