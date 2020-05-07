@@ -1,0 +1,102 @@
+/* GENERAL RULES */
+* {
+ font-family: 'Roboto', sans-serif;
+}
+.blue {
+  color: #006aff;
+}
+.black {
+  color: black;
+}
+/* HEADER-NAVBAR*/
+#my_navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #FFFF;
+  line-height: 80px;
+  z-index: 9000;
+}
+#my_navbar img {
+ height: 30px;
+}
+.nav_left li,
+.nav_right li {
+ height: 50px;
+ display: inline-block;
+}
+.nav_left li a,
+.nav_right li a {
+  text-decoration: none;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+.nav_button {
+  background-color: #FFFF;
+  padding-left: 5px;
+  border: 1px solid #3c8bff;
+}
+#my_navbar > div > div > div.col-xs-6.col-md-6.col-lg-4.text-right > div > ul > li:nth-child(4) > a {
+  color: #3c8bff;
+}
+.my_burger {
+  color: #0049FF;
+  font-size: 30px;
+}
+/* END HEADER NAVBAR */
+/* MAIN */
+/* Jumbo */
+#my_jumbo {
+  background-image: url(../img/oceanbg.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 80px;
+}
+.simplest {
+ margin-top: 50px;
+ margin-bottom: 50px;
+ color:#FFFF;
+ padding: 40px;
+}
+.simplest h1 {
+ font-size: 60px;
+ font-weight: bold;
+}
+.simplest p {
+ font-size: 20px;
+ color: #bbccff;
+}
+.deploy {
+ margin-top: 100px;
+ margin-bottom: 50px;
+ background-color: white;
+ border-radius: 10px;
+ padding: 20px;
+}
+.btn_create {
+  width: 100%;
+  background-color: #579aff;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.btn_google {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.my_google img {
+  height: 15px;
+}
+.my_google {
+  float: left;
+}
+.form_deploy {
+  margin-top: 10px;
+}
+/* END Jumbo */
