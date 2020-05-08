@@ -73,7 +73,68 @@ ul {
   color: #0049FF;
   font-size: 30px;
 }
-/* END HEADER NAVBAR */
+/* END NAVBAR */
+/* CHAT BAR */
+#chatbar {
+  position: fixed;
+  bottom:0;
+  right: 0;
+  z-index: 9000;
+  width: 100%;
+  cursor: pointer;
+}
+.chatbar_left {
+  position: relative;
+  float: right;
+  border-radius: 5px;;
+  display: inline-block;
+  width: 285px;
+  height: 55px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 10px 10px 30px 0px grey;
+}
+.chatbar_left:after {
+	content: '';
+	position: absolute;
+  transform:rotate(45deg);
+  background-color:White;
+  height: 15px;
+  width: 15px;
+  bottom: 25%;
+  left: 97%;
+}
+.chatbar_right {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  height: 80px;
+  width: 80px;
+  background-image: url(../img/shark.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-color: #0049FF;
+  border-radius: 5px;
+  box-shadow: 10px 10px 31px -11px rgba(130,199,245,0.65);
+}
+.number {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  bottom: 75%;
+  left: 75%;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: red;
+  padding: 3px;
+}
+/* END CHAT BAR */
+/* END HEADER */
 /* MAIN */
 /* Jumbo */
 #my_jumbo {
@@ -314,3 +375,88 @@ footer div .power {
   padding-top: 30px;
 }
 /* END FOOTER */
+
+/* MEDIA QUERY CHATBAR */
+@media screen and (max-width:992px) {
+  #chatbar {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    z-index: 9000;
+    width: 100%;
+    cursor: pointer;
+  }
+  .chatbar_left {
+    position: relative;
+    float: left;
+    border-radius: 5px;
+    min-width: 20%;
+    height: 60px;
+    margin: 10px 40px;
+    padding: 10px;
+    color: #0F2656;
+    background-color: white;
+    box-shadow: 10px 10px 30px 0px grey;
+  }
+  .chatbar_left:after {
+    content: '';
+    position: absolute;
+    transform:rotate(45deg);
+    background-color:White;
+    height: 15px;
+    width: 15px;
+    bottom: 25%;
+    left: 97%;
+  }
+  .chatbar_right {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    margin-right: 100%;
+    margin-bottom: 15px;
+    height: 80px;
+    width: 80px;
+    background-image: url(../img/shark.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: #0049FF;
+    border-radius: 5px;
+  }
+  .number {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 75%;
+    left: 75%;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: red;
+    padding: 3px;
+  }
+}
+/* FINE MEDIA QUERY CHAT BAR */
+/* MEDIA QUERY XS */
+@media all and (max-width: 767px){
+  ul.user_logo li {
+    display: inline-block;
+    width: calc((100% / 3))
+  }
+  ul.user_logo li img {
+    width: 75%;
+  }
+  footer div.power ul{
+    padding: 0;
+  }
+}
+
+/* FINE MEDIA QUERY XS */
+
+/* MEDIA QUERY MD */
+@media screen and (min-width: 768px) and (max-width:992px) {
+  footer .footer_logo {
+    padding-left: 43px;
+  }
+}
+/* END MEDIA QUERY MD */
